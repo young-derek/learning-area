@@ -21,7 +21,6 @@
     <section class="preview">
 
 
-
     </section>
 
   </body>
@@ -42,6 +41,13 @@
 
     // Add your code here
 
+    for (i = 500; i >= 2; i--)
+    {
+      if (isPrime(i))
+      {
+        para.innerHTML += `${i} <br>`;
+      }
+    }
 
     // Don't edit the code below here!
     const section = document.querySelector('section');
